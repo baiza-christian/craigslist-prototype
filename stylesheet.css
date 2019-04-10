@@ -61,10 +61,16 @@ footer p {
   width: 100px !important;
   height: 100px !important;
   font-size: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .container-fluid {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 1000px;
+}
+
+.container {
+
 }
