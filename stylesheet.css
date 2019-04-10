@@ -60,5 +60,11 @@ footer p {
 .btn-squared-default-plain {
   width: 100px !important;
   height: 100px !important;
-  font-size: 10px;
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 1000px;
 }
