@@ -34,7 +34,7 @@ footer p {
   margin-bottom: .25rem;
 }
 
-.btn-squared-default-plain {
+/* .btn-squared-default-plain {
   width: 100px !important;
   height: 100px !important;
   font-size: 20px;
@@ -42,11 +42,30 @@ footer p {
   margin-left: 100px;
 }
 
+.btn-squared-default-plain:hover {
+  background-color: grey;
+  color: white;
+} */
+
+.btn-light {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btn-light:hover {
+  background-color: purple;
+}
+
 .container-fluid {
   padding-top: 3rem;
   padding-bottom: 3rem;
   width: 1000px;
 }
+
 
 .container {
 
