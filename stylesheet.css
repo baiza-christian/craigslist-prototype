@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  /* padding-bottom: 6rem; */
   margin-bottom: 0;
   background-color: #fff;
 }
@@ -74,13 +74,15 @@ footer p {
 }
 
 .container {
-  padding-top: 3rem;
+  padding-top: 1rem;
   /* padding-bottom: 3rem; */
 }
 
 .custom-select {
   width: 200px;
-  height: 200px;
   border-radius: 25px;
-  background-color: grey;
+}
+
+.form-control {
+  border-radius: 25px;
 }
