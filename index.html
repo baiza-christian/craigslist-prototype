@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>craigslist</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- CSS stylesheet -->
-    <link href="stylesheet.css" rel="stylesheet">
-  </head>
+  <title>craigslist</title>
 
-  <body>
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS stylesheet -->
+  <link href="stylesheet.css" rel="stylesheet">
+</head>
 
-    <!-- Section for the craigslist title -->
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">craigslist</h1>
-      </div>
-    </section>
+<body>
 
-    <!-- Put nav bar here -->
-    <ul class="nav nav-pills justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Account</a>
-      </li>
-    </ul>
+  <!-- Section for the craigslist title -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">craigslist</h1>
+    </div>
+  </section>
 
-    <!-- The Real Navbar -->
-    <div class="container" align="center">
+  <!-- Put nav bar here -->
+  <ul class="nav nav-pills justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Account</a>
+    </li>
+  </ul>
+
+  <!-- The Real Navbar -->
+  <div class="container" align="center">
     <nav class="navbar navbar-expand-md navbar-transparent">
-    <!-- Search bar in navbar -->
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <!-- Search bar in navbar -->
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
           <form class="form-inline" action="/action_page.php">
             <input class="form-control mr-sm-2" type="text" placeholder="Search craigslist">
           </form>
         </ul>
-    </div>
-    <!-- Craigslist icon image -->
-    <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+      </div>
+      <!-- Craigslist icon image -->
+      <div class="mx-auto my-2 order-0 order-md-1 position-relative">
         <a class="mx-auto" href="#">
-            <img src="post.png" class="rounded-circle">
+          <img src="post.png" class="rounded-circle">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-    <!-- Right side of navbar -->
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      </div>
+      <!-- Right side of navbar -->
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
@@ -140,308 +142,335 @@
         </ul>
       </div>
     </nav>
+  </div>
+
+  <div class="container" align="center" id=row1>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>
+          <a href="#forSaleCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="forSaleCollapse" data-parent="#row1">
+            <i class="fa fa-user fa-5x"></i><br />
+            For Sale <br>
+          </a>
+          <a href="#jobsCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="jobsCollapse" data-parent="#row1">
+            <i class="fa fa-user fa-5x"></i><br />
+            Jobs <br>
+          </a>
+          <a href="#housingCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="housingCollapse" data-parent="#row1">
+            <i class="fa fa-user fa-5x"></i><br />
+            Housing <br>
+          </a>
+          <a href="#servicesCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+            aria-controls="servicesCollapse" data-parent="#row1">
+            <i class="fa fa-user fa-5x"></i><br />
+            Services <br>
+          </a>
+        </p>
+      </div>
     </div>
 
-    <!-- Container for first row of buttons -->
-    <div class="container" align="center">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="collapse multi-collapse" id="forSaleCollapse" data-parent="#row1">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>antiques</a></li>
+                  <li><a href='' title='test add link'>appliances</a></li>
+                  <li><a href='' title='test add link'>arts+crafts</a></li>
+                  <li><a href='' title='test add link'>atv/utv/sno</a></li>
+                  <li><a href='' title='test add link'>auto parts</a></li>
+                  <li><a href='' title='test add link'>aviation</a></li>
+                  <li><a href='' title='test add link'>baby+kid</a></li>
+                  <li><a href='' title='test add link'>barter</a></li>
+                  <li><a href='' title='test add link'>beauty+health</a></li>
+                  <li><a href='' title='test add link'>bike parts</a></li>
+                  <li><a href='' title='test add link'>bikes</a></li>
+                  <li><a href='' title='test add link'>boat parts</a></li>
+                  <li><a href='' title='test add link'>boats</a></li>
+                  <li><a href='' title='test add link'>books</a></li>
+                  <li><a href='' title='test add link'>business</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>cars+trucks</a></li>
+                  <li><a href='' title='test add link'>cds/dvd/vhs</a></li>
+                  <li><a href='' title='test add link'>cell phones</a></li>
+                  <li><a href='' title='test add link'>clothes+acc</a></li>
+                  <li><a href='' title='test add link'>collectibles</a></li>
+                  <li><a href='' title='test add link'>computer parts</a></li>
+                  <li><a href='' title='test add link'>computers</a></li>
+                  <li><a href='' title='test add link'>electronics</a></li>
+                  <li><a href='' title='test add link'>electronics</a></li>
+                  <li><a href='' title='test add link'>farm+garden</a></li>
+                  <li><a href='' title='test add link'>free</a></li>
+                  <li><a href='' title='test add link'>furniture</a></li>
+                  <li><a href='' title='test add link'>garage sale</a></li>
+                  <li><a href='' title='test add link'>general</a></li>
+                  <li><a href='' title='test add link'>heavy equip</a></li>
+                  <li><a href='' title='test add link'>household</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>jewelry</a></li>
+                  <li><a href='' title='test add link'>materials</a></li>
+                  <li><a href='' title='test add link'>motorcycle parts</a></li>
+                  <li><a href='' title='test add link'>motorcycles</a></li>
+                  <li><a href='' title='test add link'>music instr</a></li>
+                  <li><a href='' title='test add link'>photo+video</a></li>
+                  <li><a href='' title='test add link'>rvs+camp</a></li>
+                  <li><a href='' title='test add link'>sporting</a></li>
+                  <li><a href='' title='test add link'>tickets</a></li>
+                  <li><a href='' title='test add link'>tools</a></li>
+                  <li><a href='' title='test add link'>toys+games</a></li>
+                  <li><a href='' title='test add link'>trailers</a></li>
+                  <li><a href='' title='test add link'>video gaming</a></li>
+                  <li><a href='' title='test add link'>wanted</a></li>
+                  <li><a href='' title='test add link'>wheels+tires</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="collapse multi-collapse" id="jobsCollapse" data-parent="#row1">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>accounting+finance</a></li>
+                  <li><a href='' title='test add link'>admin/office</a></li>
+                  <li><a href='' title='test add link'>arch/engineering</a></li>
+                  <li><a href='' title='test add link'>art/media/design</a></li>
+                  <li><a href='' title='test add link'>biotech/science</a></li>
+                  <li><a href='' title='test add link'>business/mgmt</a></li>
+                  <li><a href='' title='test add link'>customer service</a></li>
+                  <li><a href='' title='test add link'>education</a></li>
+                  <li><a href='' title='test add link'>etc/misc</a></li>
+                  <li><a href='' title='test add link'>food/bev/hosp</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>general labor</a></li>
+                  <li><a href='' title='test add link'>government</a></li>
+                  <li><a href='' title='test add link'>human resources</a></li>
+                  <li><a href='' title='test add link'>legal/paralegal</a></li>
+                  <li><a href='' title='test add link'>manufacturing</a></li>
+                  <li><a href='' title='test add link'>marketing/pr/ad</a></li>
+                  <li><a href='' title='test add link'>medical/health</a></li>
+                  <li><a href='' title='test add link'>nonprofit sector</a></li>
+                  <li><a href='' title='test add link'>real estate</a></li>
+                  <li><a href='' title='test add link'>retail/wholesale</a></li>
+                  <li><a href='' title='test add link'>sales/biz dev</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li><a href='' title='test add link'>salon/spa/fitness</a></li>
+                  <li><a href='' title='test add link'>security</a></li>
+                  <li><a href='' title='test add link'>skilled trade/craft</a></li>
+                  <li><a href='' title='test add link'>software/qa/dba</a></li>
+                  <li><a href='' title='test add link'>systems/network</a></li>
+                  <li><a href='' title='test add link'>technical support</a></li>
+                  <li><a href='' title='test add link'>transport</a></li>
+                  <li><a href='' title='test add link'>tv/film/video</a></li>
+                  <li><a href='' title='test add link'>web/info design</a></li>
+                  <li><a href='' title='test add link'>writing/editing</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="collapse multi-collapse" id="housingCollapse" data-parent="#row1">
+          <div class="card card-body">
+            <a href='' title='test add link'>apartments/housing</a>
+            <a href='' title='test add link'>housing swap</a>
+            <a href='' title='test add link'>housing wanted</a>
+            <a href='' title='test add link'>office/commercial</a>
+            <a href='' title='test add link'>parking/storage</a>
+            <a href='' title='test add link'>real estate for sale</a>
+            <a href='' title='test add link'>rooms/shared</a>
+            <a href='' title='test add link'>rooms wanted</a>
+            <a href='' title='test add link'>sublets/temporary</a>
+            <a href='' title='test add link'>vacation rentals</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="collapse multi-collapse" id="servicesCollapse" data-parent="#row1">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li><a href='' title='test add link'>automotive</a></li>
+                  <li><a href='' title='test add link'>beauty</a></li>
+                  <li><a href='' title='test add link'>cell/mobile</a></li>
+                  <li><a href='' title='test add link'>computer</a></li>
+                  <li><a href='' title='test add link'>creative</a></li>
+                  <li><a href='' title='test add link'>cycle</a></li>
+                  <li><a href='' title='test add link'>event</a></li>
+                  <li><a href='' title='test add link'>farm+garden</a></li>
+                  <li><a href='' title='test add link'>financial</a></li>
+                  <li><a href='' title='test add link'>household</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><a href='' title='test add link'>labor/move</a></li>
+                  <li><a href='' title='test add link'>legal</a></li>
+                  <li><a href='' title='test add link'>lessons</a></li>
+                  <li><a href='' title='test add link'>marine</a></li>
+                  <li><a href='' title='test add link'>pet</a></li>
+                  <li><a href='' title='test add link'>real estate</a></li>
+                  <li><a href='' title='test add link'>skilled trade</a></li>
+                  <li><a href='' title='test add link'>sm biz ads</a></li>
+                  <li><a href='' title='test add link'>travel/vac</a></li>
+                  <li><a href='' title='test add link'>write/ed/tran</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" align="center" id=row2>
       <div class="row">
         <div class="col-lg-12">
           <p>
-            <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="For Sale"
-            data-content="<a href='' title='test add link'>antiques</a> |
-                          <a href='' title='test add link'>appliances</a> |
-                          <a href='' title='test add link'>arts+crafts</a> |
-                          <a href='' title='test add link'>atv/utv/sno</a> |
-                          <a href='' title='test add link'>auto parts</a> |
-                          <a href='' title='test add link'>aviation</a> |
-                          <a href='' title='test add link'>baby+kid</a> |
-                          <a href='' title='test add link'>barter</a> |
-                          <a href='' title='test add link'>beauty+health</a> |
-                          <a href='' title='test add link'>bike parts</a> |
-                          <a href='' title='test add link'>bikes</a> |
-                          <a href='' title='test add link'>boat parts</a> |
-                          <a href='' title='test add link'>boats</a> |
-                          <a href='' title='test add link'>books</a> |
-                          <a href='' title='test add link'>business</a> |
-                          <a href='' title='test add link'>cars+trucks</a> |
-                          <a href='' title='test add link'>cds/dvd/vhs</a> |
-                          <a href='' title='test add link'>cell phones</a> |
-                          <a href='' title='test add link'>clothes+acc</a> |
-                          <a href='' title='test add link'>collectibles</a> |
-                          <a href='' title='test add link'>computer parts</a> |
-                          <a href='' title='test add link'>computers</a> |
-                          <a href='' title='test add link'>electronics</a> |
-                          <a href='' title='test add link'>farm+garden</a> |
-                          <a href='' title='test add link'>free</a> |
-                          <a href='' title='test add link'>furniture</a> |
-                          <a href='' title='test add link'>garage sale</a> |
-                          <a href='' title='test add link'>general</a> |
-                          <a href='' title='test add link'>heavy equip</a> |
-                          <a href='' title='test add link'>household</a> |
-                          <a href='' title='test add link'>jewelry</a> |
-                          <a href='' title='test add link'>materials</a> |
-                          <a href='' title='test add link'>motorcycle parts</a> |
-                          <a href='' title='test add link'>motorcycles</a> |
-                          <a href='' title='test add link'>music instr</a> |
-                          <a href='' title='test add link'>photo+video</a> |
-                          <a href='' title='test add link'>rvs+camp</a> |
-                          <a href='' title='test add link'>sporting</a> |
-                          <a href='' title='test add link'>tickets</a> |
-                          <a href='' title='test add link'>tools</a> |
-                          <a href='' title='test add link'>toys+games</a> |
-                          <a href='' title='test add link'>trailers</a> |
-                          <a href='' title='test add link'>video gaming</a> |
-                          <a href='' title='test add link'>wanted</a> |
-                          <a href='' title='test add link'>wheels+tires</a>"
-            data-original-title="test title">For Sale</a>
-            <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Jobs"
-            data-content="<a href='' title='test add link'>accounting+finance</a> |
-                          <a href='' title='test add link'>admin/office</a> |
-                          <a href='' title='test add link'>arch/engineering</a> |
-                          <a href='' title='test add link'>art/media/design</a> |
-                          <a href='' title='test add link'>biotech/science</a> |
-                          <a href='' title='test add link'>business/mgmt</a> |
-                          <a href='' title='test add link'>customer service</a> |
-                          <a href='' title='test add link'>education</a> |
-                          <a href='' title='test add link'>etc/misc</a> |
-                          <a href='' title='test add link'>food/bev/hosp</a> |
-                          <a href='' title='test add link'>general labor</a> |
-                          <a href='' title='test add link'>government</a> |
-                          <a href='' title='test add link'>human resources</a> |
-                          <a href='' title='test add link'>legal/paralegal</a> |
-                          <a href='' title='test add link'>manufacturing</a> |
-                          <a href='' title='test add link'>marketing/pr/ad</a> |
-                          <a href='' title='test add link'>medical/health</a> |
-                          <a href='' title='test add link'>nonprofit sector</a> |
-                          <a href='' title='test add link'>real estate</a> |
-                          <a href='' title='test add link'>retail/wholesale</a> |
-                          <a href='' title='test add link'>sales/biz dev</a> |
-                          <a href='' title='test add link'>salon/spa/fitness</a> |
-                          <a href='' title='test add link'>security</a> |
-                          <a href='' title='test add link'>skilled trade/craft</a> |
-                          <a href='' title='test add link'>software/qa/dba</a> |
-                          <a href='' title='test add link'>systems/network</a> |
-                          <a href='' title='test add link'>technical support</a> |
-                          <a href='' title='test add link'>transport</a> |
-                          <a href='' title='test add link'>tv/film/video</a> |
-                          <a href='' title='test add link'>web/info design</a> |
-                          <a href='' title='test add link'>writing/editing</a>"
-            data-original-title="test title">Jobs</a>
-            <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Housing"
-            data-content="<a href='' title='test add link'>apts/housing</a> |
-                          <a href='' title='test add link'>housing swap</a> |
-                          <a href='' title='test add link'>housing wanted</a> |
-                          <a href='' title='test add link'>office/commercial</a> |
-                          <a href='' title='test add link'>parking/storage</a> |
-                          <a href='' title='test add link'>real estate for sale</a> |
-                          <a href='' title='test add link'>rooms/shared</a> |
-                          <a href='' title='test add link'>rooms wanted</a> |
-                          <a href='' title='test add link'>sublets/temporary</a> |
-                          <a href='' title='test add link'>vacation rentals</a> |"
-            data-original-title="test title">Housing</a>
-            <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Services"
-            data-content="<a href='' title='test add link'>automotive</a> |
-                          <a href='' title='test add link'>beauty</a> |
-                          <a href='' title='test add link'>cell/mobile</a> |
-                          <a href='' title='test add link'>computer</a> |
-                          <a href='' title='test add link'>creative</a> |
-                          <a href='' title='test add link'>cycle</a> |
-                          <a href='' title='test add link'>event</a> |
-                          <a href='' title='test add link'>farm+garden</a> |
-                          <a href='' title='test add link'>financial</a> |
-                          <a href='' title='test add link'>household</a> |
-                          <a href='' title='test add link'>labor/move</a> |
-                          <a href='' title='test add link'>legal</a> |
-                          <a href='' title='test add link'>lessons</a> |
-                          <a href='' title='test add link'>marine</a> |
-                          <a href='' title='test add link'>pet</a> |
-                          <a href='' title='test add link'>real estate</a> |
-                          <a href='' title='test add link'>skilled trade</a> |
-                          <a href='' title='test add link'>sm biz ads</a> |
-                          <a href='' title='test add link'>travel/vac</a> |
-                          <a href='' title='test add link'>write/ed/tran</a> |"
-            data-original-title="test title">Services</a>
+            <a href="#commCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+              aria-controls="commCollapse" data-parent="#row2">
+              <i class="fa fa-user fa-5x"></i><br />
+              Community <br>
+            </a>
+            <a href="#discCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+              aria-controls="discCollapse" data-parent="#row2">
+              <i class="fa fa-user fa-5x"></i><br />
+              Discussions <br>
+            </a>
+            <a href="#gigsCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
+              aria-controls="gigsCollapse" data-parent="#row2">
+              <i class="fa fa-user fa-5x"></i><br />
+              Gigs <br>
+            </a>
+            <a href="#" class="btn btn-light" role="button">
+              <i class="fa fa-user fa-5x"></i><br />
+              Resumes <br>
+            </a>
           </p>
         </div>
-	     </div>
-     </div>
-
-     <!-- Container for second row of buttons -->
-     <div class="container" align="center">
-       <div class="row">
-         <div class="col-lg-12">
-           <p>
-             <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Community"
-             data-content="<a href='' title='test add link'>activities</a> |
-                           <a href='' title='test add link'>artists</a> |
-                           <a href='' title='test add link'>childcare</a> |
-                           <a href='' title='test add link'>classes</a> |
-                           <a href='' title='test add link'>events</a> |
-                           <a href='' title='test add link'>general</a> |
-                           <a href='' title='test add link'>groups</a> |
-                           <a href='' title='test add link'>local news</a> |
-                           <a href='' title='test add link'>lost+found</a> |
-                           <a href='' title='test add link'>missed</a> |
-                           <a href='' title='test add link'>connections</a> |
-                           <a href='' title='test add link'>musicians</a> |
-                           <a href='' title='test add link'>pets</a> |
-                           <a href='' title='test add link'>politics</a> |
-                           <a href='' title='test add link'>rants & raves</a> |
-                           <a href='' title='test add link'>rideshare</a> |
-                           <a href='' title='test add link'>volunteers</a> |"
-             data-original-title="test title">Community</a>
-             <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Discussions"
-             data-content="<a href='' title='test add link'>android</a> |
-                           <a href='' title='test add link'>apple</a> |
-                           <a href='' title='test add link'>arts</a> |
-                           <a href='' title='test add link'>atheist</a> |
-                           <a href='' title='test add link'>autos</a> |
-                           <a href='' title='test add link'>beauty</a> |
-                           <a href='' title='test add link'>bikes</a> |
-                           <a href='' title='test add link'>celebs</a> |
-                           <a href='' title='test add link'>comp</a> |
-                           <a href='' title='test add link'>cosmos</a> |
-                           <a href='' title='test add link'>diet</a> |
-                           <a href='' title='test add link'>divorce</a> |
-                           <a href='' title='test add link'>dying</a> |
-                           <a href='' title='test add link'>eco</a> |
-                           <a href='' title='test add link'>feedbk</a> |
-                           <a href='' title='test add link'>film</a> |
-                           <a href='' title='test add link'>fixit</a> |
-                           <a href='' title='test add link'>food</a> |
-                           <a href='' title='test add link'>frugal</a> |
-                           <a href='' title='test add link'>gaming</a> |
-                           <a href='' title='test add link'>garden</a> |
-                           <a href='' title='test add link'>haiku</a> |
-                           <a href='' title='test add link'>help</a> |
-                           <a href='' title='test add link'>history</a> |
-                           <a href='' title='test add link'>housing</a> |
-                           <a href='' title='test add link'>jobs</a> |
-                           <a href='' title='test add link'>jokes</a> |
-                           <a href='' title='test add link'>legal</a> |
-                           <a href='' title='test add link'>linux</a> |
-                           <a href='' title='test add link'>manners</a> |
-                           <a href='' title='test add link'>marriage</a> |
-                           <a href='' title='test add link'>money</a> |
-                           <a href='' title='test add link'>music</a> |
-                           <a href='' title='test add link'>open</a> |
-                           <a href='' title='test add link'>outdoor</a> |
-                           <a href='' title='test add link'>parent</a> |
-                           <a href='' title='test add link'>pets</a> |
-                           <a href='' title='test add link'>philos</a> |
-                           <a href='' title='test add link'>photo</a> |
-                           <a href='' title='test add link'>politics</a> |
-                           <a href='' title='test add link'>psych</a> |
-                           <a href='' title='test add link'>recover</a> |
-                           <a href='' title='test add link'>religion</a> |
-                           <a href='' title='test add link'>rofo</a> |
-                           <a href='' title='test add link'>science</a> |
-                           <a href='' title='test add link'>spirit</a> |
-                           <a href='' title='test add link'>sports</a> |
-                           <a href='' title='test add link'>super</a> |
-                           <a href='' title='test add link'>tax</a> |
-                           <a href='' title='test add link'>travel</a> |
-                           <a href='' title='test add link'>tv</a> |
-                           <a href='' title='test add link'>vegan</a> |
-                           <a href='' title='test add link'>words</a> |
-                           <a href='' title='test add link'>writing</a> |"
-             data-original-title="test title">Discussions</a>
-             <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Gigs"
-             data-content="<a href='' title='test add link'>computer</a> |
-                           <a href='' title='test add link'>creative</a> |
-                           <a href='' title='test add link'>crew</a> |
-                           <a href='' title='test add link'>domestic</a> |
-                           <a href='' title='test add link'>event</a> |
-                           <a href='' title='test add link'>labor</a> |
-                           <a href='' title='test add link'>talent</a> |
-                           <a href='' title='test add link'>writing</a> |"
-             data-original-title="test title">Gigs</a>
-             <a href="#" role="button" class="btn btn-light popovers" data-toggle="popover" title="Resumes"
-             data-content=""
-             data-original-title="test title">Resumes</a>
-           </p>
-         </div>
- 	     </div>
       </div>
 
-      <!-- Container for test row of buttons -->
-      <div class="container" align="center">
-        <div class="row">
-          <div class="col-lg-12">
-            <p>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#forsale">For Sale</button>
-                <div id="forsale" class="collapse">
-                  <a href='' title='test add link'>antiques</a>,
-                  <a href='' title='test add link'>appliances</a>,
-                  <a href='' title='test add link'>arts+crafts</a>,
-                  <a href='' title='test add link'>atv/utv/sno</a>,
-                  <a href='' title='test add link'>auto parts</a>,
-                  <a href='' title='test add link'>aviation</a>,
-                  <a href='' title='test add link'>baby+kid</a>,
-                  <a href='' title='test add link'>barter</a>,
-                  <a href='' title='test add link'>beauty+health</a>,
-                  <a href='' title='test add link'>bike parts</a>,
-                  <a href='' title='test add link'>bikes</a>,
-                  <a href='' title='test add link'>boat parts</a>,
-                  <a href='' title='test add link'>boats</a>,
-                  <a href='' title='test add link'>books</a>,
-                  <a href='' title='test add link'>business</a>,
-                  <a href='' title='test add link'>cars+trucks</a>,
-                  <a href='' title='test add link'>cds/dvd/vhs</a>,
-                  <a href='' title='test add link'>cell phones</a>,
-                  <a href='' title='test add link'>clothes+acc</a>,
-                  <a href='' title='test add link'>collectibles</a>,
-                  <a href='' title='test add link'>computer parts</a>,
-                  <a href='' title='test add link'>computers</a>,
-                  <a href='' title='test add link'>electronics</a>,
-                  <a href='' title='test add link'>farm+garden</a>,
-                  <a href='' title='test add link'>free</a>,
-                  <a href='' title='test add link'>furniture</a>,
-                  <a href='' title='test add link'>garage sale</a>,
-                  <a href='' title='test add link'>general</a>,
-                  <a href='' title='test add link'>heavy equip</a>,
-                  <a href='' title='test add link'>household</a>,
-                  <a href='' title='test add link'>jewelry</a>,
-                  <a href='' title='test add link'>materials</a>,
-                  <a href='' title='test add link'>motorcycle parts</a>,
-                  <a href='' title='test add link'>motorcycles</a>,
-                  <a href='' title='test add link'>music instr</a>,
-                  <a href='' title='test add link'>photo+video</a>,
-                  <a href='' title='test add link'>rvs+camp</a>,
-                  <a href='' title='test add link'>sporting</a>,
-                  <a href='' title='test add link'>tickets</a>,
-                  <a href='' title='test add link'>tools</a>,
-                  <a href='' title='test add link'>toys+games</a>,
-                  <a href='' title='test add link'>trailers</a>,
-                  <a href='' title='test add link'>video gaming</a>,
-                  <a href='' title='test add link'>wanted</a>,
-                  <a href='' title='test add link'>wheels+tires</a>
-                </div>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#jobs">Jobs</button>
-                <div id="jobs" class="collapse">
-                  <a href='' title='test add link'>accounting+finance</a>
-                  <a href='' title='test add link'>admin / office</a>
-                  <a href='' title='test add link'>arch / engineering</a>
-                  <a href='' title='test add link'>art / media / design</a>
-                </div>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#housing">Housing</button>
-                <div id="housing" class="collapse">
-                  <a href='' title='test add link'>apts / housing</a>
-                  <a href='' title='test add link'>housing swap</a>
-                  <a href='' title='test add link'>housing wanted</a>
-                  <a href='' title='test add link'>office / commercial</a>
-                </div>
-              <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#services">Services</button>
-                <div id="services" class="collapse">
-                  <a href='' title='test add link'>apts / housing</a>
-                  <a href='' title='test add link'>housing swap</a>
-                  <a href='' title='test add link'>housing wanted</a>
-                  <a href='' title='test add link'>office / commercial</a>
-                </div>
-            </p>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="collapse multi-collapse" id="commCollapse" data-parent="#row2">
+            <div class="card card-body">
+              <a href='' title='test add link'>activities</a>
+              <a href='' title='test add link'>artists</a>
+              <a href='' title='test add link'>childcare</a>
+              <a href='' title='test add link'>classes</a>
+              <a href='' title='test add link'>events</a>
+              <a href='' title='test add link'>general</a>
+              <a href='' title='test add link'>groups</a>
+              <a href='' title='test add link'>local news</a>
+              <a href='' title='test add link'>lost+found</a>
+              <a href='' title='test add link'>missed</a>
+              <a href='' title='test add link'>connections</a>
+              <a href='' title='test add link'>musicians</a>
+              <a href='' title='test add link'>pets</a>
+              <a href='' title='test add link'>politics</a>
+              <a href='' title='test add link'>rants & raves</a>
+              <a href='' title='test add link'>rideshare</a>
+              <a href='' title='test add link'>volunteers</a>
+            </div>
           </div>
-  	     </div>
-       </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="collapse multi-collapse" id="discCollapse" data-parent="#row2">
+            <div class="card card-body">
+              <a href='' title='test add link'>android</a>
+              <a href='' title='test add link'>apple</a>
+              <a href='' title='test add link'>arts</a>
+              <a href='' title='test add link'>atheist</a>
+              <a href='' title='test add link'>autos</a>
+              <a href='' title='test add link'>beauty</a>
+              <a href='' title='test add link'>bikes</a>
+              <a href='' title='test add link'>celebs</a>
+              <a href='' title='test add link'>comp</a>
+              <a href='' title='test add link'>cosmos</a>
+              <a href='' title='test add link'>diet</a>
+              <a href='' title='test add link'>divorce</a>
+              <a href='' title='test add link'>dying</a>
+              <a href='' title='test add link'>eco</a>
+              <a href='' title='test add link'>feedbk</a>
+              <a href='' title='test add link'>film</a>
+              <a href='' title='test add link'>fixit</a>
+              <a href='' title='test add link'>food</a>
+              <a href='' title='test add link'>frugal</a>
+              <a href='' title='test add link'>gaming</a>
+              <a href='' title='test add link'>garden</a>
+              <a href='' title='test add link'>haiku</a>
+              <a href='' title='test add link'>help</a>
+              <a href='' title='test add link'>history</a>
+              <a href='' title='test add link'>housing</a>
+              <a href='' title='test add link'>jobs</a>
+              <a href='' title='test add link'>jokes</a>
+              <a href='' title='test add link'>legal</a>
+              <a href='' title='test add link'>linux</a>
+              <a href='' title='test add link'>manners</a>
+              <a href='' title='test add link'>marriage</a>
+              <a href='' title='test add link'>money</a>
+              <a href='' title='test add link'>music</a>
+              <a href='' title='test add link'>open</a>
+              <a href='' title='test add link'>outdoor</a>
+              <a href='' title='test add link'>parent</a>
+              <a href='' title='test add link'>pets</a>
+              <a href='' title='test add link'>philos</a>
+              <a href='' title='test add link'>photo</a>
+              <a href='' title='test add link'>politics</a>
+              <a href='' title='test add link'>psych</a>
+              <a href='' title='test add link'>recover</a>
+              <a href='' title='test add link'>religion</a>
+              <a href='' title='test add link'>rofo</a>
+              <a href='' title='test add link'>science</a>
+              <a href='' title='test add link'>spirit</a>
+              <a href='' title='test add link'>sports</a>
+              <a href='' title='test add link'>super</a>
+              <a href='' title='test add link'>tax</a>
+              <a href='' title='test add link'>travel</a>
+              <a href='' title='test add link'>tv</a>
+              <a href='' title='test add link'>vegan</a>
+              <a href='' title='test add link'>words</a>
+              <a href='' title='test add link'>writing</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="collapse multi-collapse" id="gigsCollapse" data-parent="#row2">
+            <div class="card card-body">
+              <a href='' title='test add link'>computer</a>
+              <a href='' title='test add link'>creative</a>
+              <a href='' title='test add link'>crew</a>
+              <a href='' title='test add link'>domestic</a>
+              <a href='' title='test add link'>event</a>
+              <a href='' title='test add link'>labor</a>
+              <a href='' title='test add link'>talent</a>
+              <a href='' title='test add link'>writing</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="text-muted">
@@ -454,11 +483,19 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <script>
       $(function () {
@@ -467,10 +504,17 @@
     </script>
     <script>
       $("[data-toggle=popover]")
-      .popover({html:true})
+        .popover({ html: true })
+    </script>
+    <script>
+      $("[data-toggle=collapse]").collapse({ toggle: false })
+      jQuery("[data-toggle=collapse]").click(function (e) {
+        jQuery('.collapse').collapse('hide');
+      });
     </script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
+
 </html>

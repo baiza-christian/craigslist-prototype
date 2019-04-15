@@ -55,10 +55,11 @@ footer p {
   border-radius: 25px;
   margin-right: 15px;
   margin-left: 15px;
+  background-color: #d8d8d8;
 }
 
 .btn-light:hover {
-  background-color: purple;
+  background-color: #551A99;
 }
 
 .container-fluid {
@@ -85,4 +86,8 @@ footer p {
 
 .form-control {
   border-radius: 25px;
+}
+
+ul {
+  list-style-type: none;
 }
