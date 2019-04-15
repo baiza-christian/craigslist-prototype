@@ -77,3 +77,10 @@ footer p {
   padding-top: 3rem;
   /* padding-bottom: 3rem; */
 }
+
+.custom-select {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: grey;
+}
