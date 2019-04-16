@@ -14,6 +14,11 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- CSS stylesheet -->
   <link href="stylesheet.css" rel="stylesheet">
+  <!-- Calendar stylesheet -->
+  <link rel="stylesheet" href="src/mini-event-calendar.min.css">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- Calendar Styles -->
+
 </head>
 
 <body>
@@ -21,7 +26,7 @@
   <!-- Section for the craigslist title -->
   <section class="jumbotron text-center">
     <div class="container">
-      <h1 class="jumbotron-heading">craigslist</h1>
+      <h1 class="jumbotron-heading">☮ craigslist</h1>
     </div>
   </section>
 
@@ -49,7 +54,7 @@
       <!-- Craigslist icon image -->
       <div class="mx-auto my-2 order-0 order-md-1 position-relative">
         <a class="mx-auto" href="#">
-          <img src="post.png" class="rounded-circle">
+          <img style="width: 144px" src="post.png" class="rounded-circle">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
           <span class="navbar-toggler-icon"></span>
@@ -151,7 +156,7 @@
           <a href="#forSaleCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="forSaleCollapse" data-parent="#row1">
             <i class="fa fa-user fa-5x"></i><br />
-            For Sale <br>
+            For Sale <br> 
           </a>
           <a href="#jobsCollapse" class="btn btn-light" data-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="jobsCollapse" data-parent="#row1">
@@ -472,31 +477,108 @@
       </div>
     </div>
 
+    <!-- Event Calendar Container -->
+
+
+
+    <div class="container">
+      <head>
+        <h3 style="padding-top:2rem">Event Calendar</h3>
+      </head>
+    <div class="month">
+      <ul>
+        <li class="prev">&#10094;</li>
+        <li class="next">&#10095;</li>
+        <li>
+
+          <span style="font-size:24px">April 2019</span>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="weekdays">
+      <li>Mon</li>
+      <li>Tue</li>
+      <li>Wed</li>
+      <li>Thu</li>
+      <li>Fri</li>
+      <li>Sat</li>
+      <li>Sun</li>
+    </ul>
+
+    <ul class="days">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li>10</li>
+      <li>11</li>
+      <li>12</li>
+      <li>13</li>
+      <li>14</li>
+      <li>15</li>
+      <li>16</li>
+      <li><span class="active">17</span></li>
+      <li>18</li>
+      <li>19</li>
+      <li>20</li>
+      <li>21</li>
+      <li>22</li>
+      <li>23</li>
+      <li>24</li>
+      <li>25</li>
+      <li>26</li>
+      <li>27</li>
+      <li>28</li>
+      <li>29</li>
+      <li>30</li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+    </ul>
+  </div>
+
     <!-- Footer -->
     <footer class="text-muted">
       <div class="container">
-
+        <p>
+          <a href="" title="help">Help</a>
+          <a href="" title="safety">Safety</a>
+          <a href="" title="privacy">Privacy</a>
+          <a href="" title="feedback">Feedback</a>
+          <a href="" title="cl jobs">Cl Jobs</a>
+          <a href="" title="terms">Terms</a>
+          <a href="" title="about">About</a>
+          <a href="" title="mobile">Mobile</a>
+        </p>
       </div>
     </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  	<script src="src/mini-event-calendar.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
       integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
       crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
       integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
       crossorigin="anonymous"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="../jquery.bootstrap.year.calendar.js"></script>
     <script>
       $(function () {
         Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
@@ -512,6 +594,7 @@
         jQuery('.collapse').collapse('hide');
       });
     </script>
+
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
