@@ -59,7 +59,8 @@ footer p {
 }
 
 .btn-light:hover {
-  background-color: #551A99;
+  color: white;
+  background-color: #886ce4;
 }
 
 .container-fluid {
